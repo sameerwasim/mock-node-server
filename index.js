@@ -21,6 +21,6 @@ router.delete("/", (req, res) => {
 });
 
 app.use(router);
-app.listen(80, () => {
+app.listen(3000, () => {
   console.log("App Started");
 });
